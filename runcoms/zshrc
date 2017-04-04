@@ -21,6 +21,8 @@ function psu {
   ps -U "${1:-$USER}" -o 'pid,%cpu,%mem,command' "${(@)argv[2,-1]}"
 }
 
+alias du='du -khd1'
+
 alias path='echo -e ${PATH//:/\\n}'
 alias fpath='echo -e ${FPATH//:/\\n}'
 alias cdpath='echo -e ${CDPATH//:/\\n}'
