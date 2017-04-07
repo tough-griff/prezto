@@ -28,21 +28,6 @@ alias fpath='echo -e ${FPATH//:/\\n}'
 alias cdpath='echo -e ${CDPATH//:/\\n}'
 alias manpath='echo -e ${MANPATH//:/\\n}'
 
-# Homebrew
-alias brewc='brew cleanup'
-alias brewi='brew install'
-alias brewl='brew list'
-alias brews='brew search'
-alias brewu='brew update && brew upgrade'
-alias brewx='brew uninstall'
-
-alias cask='brew cask'
-alias caskc='brew cask cleanup'
-alias caski='brew cask install'
-alias caskl='brew cask list'
-alias casks='brew cask search'
-alias caskx='brew cask uninstall'
-
 # Git
 alias git='hub'
 alias g='git'
