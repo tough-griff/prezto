@@ -9,6 +9,7 @@ fi
 
 source /opt/boxen/env.sh
 eval "$(fasd --init posix-alias)"
+eval "$(direnv hook zsh)"
 
 alias tree='tree -h -C --dirsfirst'
 
