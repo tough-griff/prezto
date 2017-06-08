@@ -76,5 +76,9 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 # Define secret environment variables.
 [[ -f "$HOME/.secrets" ]] && source "$HOME/.secrets"
 
-# ruby-build
+# nodenv
+export NODENV_ROOT=/usr/local/var/nodenv
+
+# rbenv & ruby-build
+export RBENV_ROOT=/usr/local/var/rbenv
 export RUBY_CONFIGURE_OPTS=--disable-install-doc # doc-free installation
